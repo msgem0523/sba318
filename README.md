@@ -49,3 +49,41 @@ Rather than manipulating the DOM directly, this project focuses on:
 ├── package.json – Dependencies and scripts
 └── README.md – Documentation
 
+
+---
+
+## ▶️ How to Run Locally
+
+1. Clone the repository  
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the server:
+    npm start
+    or
+    ```bash
+    node server.js
+4. Open a browser and navigate to:
+    http://localhost:3000
+
+---
+
+🧩 Learning Outcomes
+
+Through this project, I practiced:
+
+✔ Building a backend server with Express
+✔ Creating RESTful routes
+✔ Writing and applying middleware
+✔ Rendering views on the server
+✔ Handling form submissions
+✔ Understanding request/response flow
+
+📌 Notes
+
+This project was completed as part of Software Bootcamp Assignment 318 (SBA318) and represents my transition from client-side JavaScript to backend development.
+
+✨ Author
+
+TeMecha Griffin (MsGem0523)
+Aspiring Software Engineer | Backend-Focused Developer
