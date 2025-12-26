@@ -4,7 +4,7 @@ const health_record = require('./models/health_record');
 const appointments = require('./models/appointments');
 
 async function seedDatabase() {
-  await mongoose.connect('mongodb://localhost:27017/pediatricTracker', { useNewUrlParser: true, useUnifiedTopology: true });
+  await mongoose.connect('cluster0-shard-00-00.skdmn.mongodb.net:27017', { useNewUrlParser: true, useUnifiedTopology: true });
 
   await child_data.deleteMany({});
   await health_record.deleteMany({});

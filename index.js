@@ -26,6 +26,6 @@ app.get('/', (req, res) => {
 app.use(express.json());
 
 // Routes
-app.use('/api/children', child_dataRoutes);
+app.use('/api/child_data', child_dataRoutes);
 app.use('/api/health_record', health_recordRoute);
 app.use('/api/appointments', appointmentsRoutes);
